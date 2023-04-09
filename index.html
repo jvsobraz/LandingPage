@@ -17,8 +17,44 @@
 </head>
 
 <body>
-    <h1>InDecor</h1>
-    <i class="bi bi-x-octagon-fill"></i>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>InDecor</h2>
+            <p class="about-event">
+                Um evento para revolucionar a sua criatividade
+            </p>
+            <p>Data do evento:</p>
+            <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+        </div>
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" name="phone" placeholder="Digite seu número de telefone">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principal interesse:</label>
+                    <select name="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="apartment">Apartamentos</option>
+                        <option value="house">Casas</option>
+                        <option value="garden">Jardins</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Quero me inscrever">
+            </form>
+        </div>
+    </header>
 </body>
 
 </html>
